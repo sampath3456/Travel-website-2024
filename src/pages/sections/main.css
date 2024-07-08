@@ -1,0 +1,319 @@
+.hero-section {
+    width: 100%;
+    height: auto;
+}
+
+.hero-image {
+    margin: 25px 0px;
+    position: relative;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.search-filter {
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    margin: 15px 0;
+    width: fit-content;
+    border: 2px solid #aaa;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.search-filter .box li {
+    margin-left: 10px;
+    padding: 0 10px;
+}
+
+.search-filter .box {
+    padding: 10px;
+    border-right: 2px solid #aaa;
+    list-style: none;
+    display: flex;
+}
+
+
+
+.filter-button {
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: royalblue;
+    border: 2px solid royalblue;
+    text-transform: capitalize;
+}
+
+/****************************offers***********************************/
+
+.Offers h2 {
+    padding: 40px 0 0 50px;
+
+}
+
+.radio-group input {
+    margin: 0 10px;
+
+}
+
+.grid-images {
+    padding: 30px 25px 30px 25px;
+
+}
+
+
+.grid-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-images .images-part {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.images-part img {
+    transition: transform 0.3s linear;
+}
+
+.images-part {
+    padding: 5px 0 5px 0;
+}
+
+
+.box1 .box3 {
+    width: 40%;
+
+}
+
+.box2 {
+    width: 40%;
+}
+
+.box4 {
+    width: 50%;
+}
+
+.box5 {
+    width: 25%;
+}
+
+.box6 {
+    width: 25%;
+}
+
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*destinations*/
+
+.destination {
+    width: 100%;
+    height: fit-content;
+}
+
+.dest-heading {
+    padding: 20px 20px;
+}
+
+.destfile {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px 10px;
+}
+
+
+
+.destfile .box {
+    /* border: 1px solid #655f5f; */
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.destfile .box img {
+    transition: transform 0.3s linear;
+}
+
+.destfile .box img:hover {
+    transform: scale(1.2);
+}
+
+
+/*reviews*/
+.reviews-headings {
+    padding: 40px 20px;
+}
+
+.reviewgrid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 5px;
+    padding: 0 20px 0 20px;
+
+
+}
+
+.review-images {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.review-images img {
+    transition: transform 0.3s linear;
+}
+
+.review-images img:hover {
+    transform: scale(1.2);
+}
+
+/*nextTrip*/
+.nexttrip {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url('../../Assets/nexttrip.jpg');
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-weight: 20px;
+    margin: 15px auto;
+}
+
+.trip-left h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.trip-left {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.trip-right h2 {
+    font-size: 30px;
+}
+
+.trip-right p {
+    text-align: right;
+    padding-right: 22px;
+}
+
+.trip-right {
+    width: 350px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+/*footer*/
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 20px;
+    text-align: start;
+}
+
+.footer-top p {
+    width: 60%;
+    padding-top: 30px;
+}
+
+.left img {
+    padding: 20px 0 20px 0;
+}
+
+.footer-center li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.footer-bottom .box img {
+    padding: 0 5px;
+    transition: transform 0.3s linear;
+}
+
+.footer-bottom .box img:hover {
+    transform: scale(1.2);
+}
+
+
+.input-button {
+    display: flex;
+}
+
+.input-button input[type="email"] {
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.input-button button {
+    outline: none;
+    border: 1px solid royalblue;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    background: royalblue;
+    padding: 5px 10px;
+}
+
+.input-button button:hover {
+    background: #0838c8;
+}
+
+footer .copyright {
+    padding: 10px;
+    background: #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+
+.input-email {
+    margin-right: -100px;
+}
