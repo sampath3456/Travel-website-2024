@@ -5,6 +5,8 @@ import lanImg from "../Assets/lanImg.webp";
 import questionBtn from "../Assets/Button.png";
 import Search from "../Assets/search.png";
 import { topBtn } from "../shared/constant";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
@@ -35,8 +37,12 @@ const Navbar = () => {
           </div>
         </div>
         <div className="buttons">
-          <button className="btn">Sign In</button>
-          <button className="btn">Register</button>
+          <Link to="/login" className="btn">
+            Sign In
+          </Link>
+          <Link to="/register" className="btn">
+            Register
+          </Link>
         </div>
       </div>
       <div className="buttons-group">

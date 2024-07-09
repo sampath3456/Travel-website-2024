@@ -5,6 +5,10 @@
     font-family: "Poppins";
 }
 
+a {
+    text-decoration: none;
+}
+
 .center {
     display: flex;
     justify-content: space-around;
